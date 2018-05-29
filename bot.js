@@ -47,13 +47,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'رابط') {
-    msg.reply('** ``https://discord.gg/EXNztT6``**');
+    msg.reply('** ``https://discord.gg/jSGVuSb``**');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'الرابط') {
-    msg.reply('** ``https://discord.gg/EXNztT6``**');
+    msg.reply('** ``https://discord.gg/jSGVuSb``**');
   }
 });
 
