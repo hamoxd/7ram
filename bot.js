@@ -12,11 +12,94 @@ client.on('message', message => {
 });
 
 
-client.on('message', message => {
- if (message.content === x_x) {
-  client.user.setGame(`LINKS IS HERO`, 'https://www.twitch.tv/hix')
+client.on('message', msg => {
+  if (msg.content === 'برب') {
+    msg.reply('** ٌــيَــتٌ يَ حٍــلُــۆ،  لُآ تٌــطًــۆلُ :disappointed:**');
+  }
+});
 
- }
+client.on('message', msg => {
+  if (msg.content === 'رابط') {
+    msg.reply('** ``https://discord.gg/gmMer2g``**');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'الرابط') {
+    msg.reply('** ``https://discord.gg/gmMer2g``**');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('**وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:**');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === '.') {
+    msg.reply('**يلبى الى ينقط كمل يا حلو **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '..') {
+    msg.reply('**لسا بدك تنقط كمل خلينا نشوف نقطك**');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '...') {
+    msg.reply('**ما اجمل نقطك كمل كمان  **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '....') {
+    msg.reply('**خلاص ما بكمل كمل لوحدك **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '.....') {
+    msg.reply('**انت حمار لسا  بتسمع كلامى :joy: **');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === '......') {
+    msg.reply('**خلاص يا ابن الحلال وقف **');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === 'السلام عليكم') {
+    msg.reply('**ۆعـلُـيَـگـم آلُـسـلُآم ۆرحٍـمةّ آلُلُہ ۆبْرگآتٌہ ، منْۆر. :rose: **');
+  }
+});
+
+
+
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : i1Suhaib`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`! XGT`,"http://twitch.tv/S-F")
+client.user.setStatus("dnd")
 });
 
 
