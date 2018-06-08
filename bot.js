@@ -98,7 +98,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`! XGT`,"http://twitch.tv/S-F")
+client.user.setGame(`BLACK MARKET تصميم`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
