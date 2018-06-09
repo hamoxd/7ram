@@ -124,7 +124,7 @@ client.user.setStatus("dnd")
   .setColor('RANDOM')
   .setThumbnail(`${mentionavatar.avatarURL}`)
   .addField("***شكرا الانضمامك الينا***" ,mentionavatar.username )
-  .setDescription('***WELCOME TO CLAN HD***')
+  .setDescription('***WELCOME TO CLAN KG***')
   .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
    message.channel.sendEmbed(EsTeKnAN);
   }
